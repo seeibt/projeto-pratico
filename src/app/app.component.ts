@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'projeto-pratico';
+
+    valor1:string = "Valor da variável 1";
+    valor2 = 50;
+
+    mostrarMensagem():void{ 
+        alert("Mensagem exibida!");
+    }
+
+
 }
